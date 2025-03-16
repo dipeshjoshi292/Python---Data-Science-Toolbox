@@ -1,0 +1,43 @@
+print("hello python")
+
+if 5>3:
+   print("hmm")
+'correct'
+
+if 5>2:
+ print("five is greater than two")
+if 5>2:
+    print("5 is > 2")
+
+#incorrect
+
+if 5>2:
+ print("5>2")
+    print("5 is > 2")
+
+a=5
+b=4
+print(a+b)
+
+x='sally'
+print(type(x))
+
+a=5
+print(type(a))
+
+myvar='py'
+print(myvar)
+
+fruits=['apple','banana','cherry']
+x,y,z=fruits
+print(x)
+print(y)
+print(z)
+
+
+
+
+
+
+
+
