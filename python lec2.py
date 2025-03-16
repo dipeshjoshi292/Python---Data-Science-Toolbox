@@ -1,5 +1,4 @@
 #LIST
-
 a=[1,'banana','python',2]
 print(type(a))
 print(a)
@@ -9,7 +8,6 @@ print(a+a)
 print(a*3)
 
 #TUPLES
-
 tup=(1,"python",2)
 print(type(tup))
 print(tup)
@@ -25,7 +23,6 @@ b=(2,)
 print(type(b))
 
 #SET
-
 s={"apple","banana",True,1,False,0,2} #True represent  1 and false reresent 0
 print(s)
 s.add(5)
@@ -40,8 +37,7 @@ s={"apple","banana"}
 print("banana" in s)
 print("banana" not in s)
 
-#dictionary
-
+#Dictionary
 d={"subject" :"python",2:"data"}
 print(d)
 
@@ -50,8 +46,7 @@ print(int(True))
 print(bool(3))
 print(bool(0))
 
-#operators:-
-
+#Operators:-
 "ARITHEMATIC"
 a=int(input())
 b=int(input())
@@ -74,7 +69,8 @@ print(a<b)
 print(a>b)
 print(a>=b)
 print(a<=b)
-#assignment operators
+
+#Assignment Operators
 a+=b
 print(a)
 a-=b
