@@ -1,5 +1,5 @@
 import numpy as np
-'''
+
 a=np.array([[1,2,3],[4,5,6]])
 b=np.array([[10,9,8],[7,6,5]])
 print(a)
@@ -14,21 +14,18 @@ aa=np.array([[1,2],[3,4]])
 bb=np.array([[7,8],[9,10]])
 matrix=np.dot(aa,bb)
 print("matrix:",matrix)
-'''
-'''
+
 #n dimension arrange function using reshape
 b= np.arange(12).reshape(3,4)
 print(b)
-'''
-'''
+
 m=np.array([20,-3,17,44])
 #conditional
 print(m<[12,3,4,55])
 print(m<25)
 #to get element below 25
 print(m[m<25])
-'''
-'''
+
 a=np.array([[-2.5,3,4.1],[12,11,13]])
 print(a)
 print(type(a))
@@ -48,7 +45,7 @@ print("cumulative sum:",b.cumsum(axis=1))
 
 print("Transpose:",b.T) #Transpose
 #also .copy()
-'''
+
 import pandas as pd
 s=pd.Series([1,2,-999,0])
 print(s)
