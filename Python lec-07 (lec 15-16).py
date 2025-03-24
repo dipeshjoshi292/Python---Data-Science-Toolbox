@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-'''
+
 a=np.arange(24).reshape(2,3,4)
 print(a.sum(axis=0))
-'''
+
 
 b=pd.Series([18,20,16],index=["Ankit","Dipesh","Daksh"])
 print(b)
@@ -32,15 +32,14 @@ print(s3)
 s4=pd.Series([83,68],index=["bob","alice"],name="weights")
 print(s4)
 
-'''
+
 import matplotlib.pyplot as plt
 temp=[4.4,2.1,3.1,4.4,3.6,4.7,6.9,9.9,5.4,25.0]
 
 s5=pd.Series(temp,name="Temperature",index=["a","b","c","d","e","f","g","h","i","j"])
 s5.plot()
 plt.show()
-'''
-'''
+
 #DataFrame
 import matplotlib.pyplot as plt
 df={"a":[1,2,3],"b":[11,22,33]}
@@ -48,7 +47,7 @@ dd=pd.DataFrame(df)
 dd.plot()
 plt.show()
 print(dd)
-'''
+
 #DataFrame
 people={
     "weight": pd.Series([68,83,112],index=["alice","bob","charles"]),
