@@ -9,7 +9,7 @@ df= pd.DataFrame([
     ],
     columns=["hobby","weight","birthyear","children"],
                  index=["alice","bob"])
-'''
+
 print(df)
 #saving dataframe to csv
 df.to_csv("my_df.csv")
@@ -17,15 +17,14 @@ df.to_csv("my_df.csv")
 df_load = pd.read_csv("my_df.csv",index_col=0)
 print("------------")
 print(df_load)
-'''
-'''
+
 df2=pd.read_csv("df2.csv")
 print(df2)
 
 data=pd.read_csv("data.csv")
 print(data)
 print("------------")
-'''
+
 print(data.head())
 print(data.tail(n=2))
 print(data.info())
