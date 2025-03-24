@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-'''s = pd.Series([1,-2,6,7])
+s = pd.Series([1,-2,6,7])
 print(np.square(s))
 print(s)
 #arithmetic 
@@ -118,7 +118,7 @@ print(data.describe())
 d = {"Sagar":pd.Series([12,15,16,44], index = ['a','b','c','d']) ,"Prashnat":pd.Series([56,18,78,56], index = ['a','b','c','d'])}
 df = pd.DataFrame(d)
 print(df)
-print(df.head)'''
+print(df.head)
 df = pd.read_csv("data.csv")
 print(df.isnull().sum())
 ndf = df.dropna()
