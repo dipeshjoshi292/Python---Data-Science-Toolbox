@@ -1,5 +1,5 @@
 import pandas as pd
-'''
+
 df=pd.read_csv("data.csv")
 print(df)
 print("----------")
@@ -23,18 +23,18 @@ print("mode:",df.mode(axis=1))
 
 x=df["Calories"].mean()
 df["Calories"]=df["Calories"].fillna(x)
-'''
+
 #2 - Mean()
-'''
+
 df=pd.read_csv("Data.csv")
 null_rows=df[df.isnull().any(axis=1)]
 print(null_rows)
 x=df["Pulse"].mean()
 df["Pulse"]=df["Pulse"].fillna(x)
 print(df.isnull().sum())
-'''
+
 #3- Median(), Mode()
-'''
+
 df=pd.read_csv("Data.csv")
 x=df["Calories"].mode()[0]
 print(x)
@@ -45,7 +45,7 @@ print(y)
 df["Pulse"]=df["Pulse"].fillna(y)
 print(df["Pulse"])
 print(df.isnull().sum())
-'''
+
 #practice question
 df=pd.read_csv("dataset.csv")
 print(df.describe())
