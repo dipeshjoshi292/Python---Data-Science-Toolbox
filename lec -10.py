@@ -22,14 +22,14 @@ print("------------")
 m=(data.isnull().sum())
 print("count null values:",m)
 print("------------")
-'''
+
 k=data.fillna(130,inplace= True)
 print("k:",k)
 print("------------")
 l=data.fillna(30,inplace=False)
 print("l:",l)
 print("-----------")
-'''
+
 ndf=data.dropna()
 print(ndf.isnull().sum())
 print(data.isnull().sum())
